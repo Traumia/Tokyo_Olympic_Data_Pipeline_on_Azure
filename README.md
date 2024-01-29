@@ -7,7 +7,7 @@ The **Tokyo Olympic Data Analysis on Azure** project is a comprehensive solution
 - [Architecture](#architecture)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
 - [Data Ingestion](#data-ingestion)
 - [Data Processing](#data-processing)
 - [Conclusion](#conclusion)
@@ -40,7 +40,6 @@ The architecture of the project consists of the following components:
 - Azure SQL Database
 - Azure Synapse Analytics
 
-![Resource Group](images/resource_group.png)
 
 ## Getting Started
 
@@ -52,11 +51,8 @@ The architecture of the project consists of the following components:
 
 ## Data Ingestion
 
-![DataFactory](images/DataFactory.png)
 
 ## Data Processing
-
-![Databricks](images/DataBricks.png)
 
 The data processing stage involves cleaning and transforming raw Olympic data into a structured format suitable for analysis. This step takes advantage of Azure Databricks' distributed computing capabilities for efficient processing.
 
@@ -64,5 +60,3 @@ The data processing stage involves cleaning and transforming raw Olympic data in
 
 The Olympic Data Analysis on Azure project demonstrates how to leverage Azure services for processing, analyzing, and visualizing large-scale data. By following the setup and guides provided in this repository, you can adapt the project to other domains and expand its functionalities. Happy analyzing!
 
-## Author
-[@tknishh](https://github.com/tknishh)
